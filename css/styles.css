@@ -791,9 +791,8 @@ padding: 18px;
     position: absolute;
     bottom: 8px;
     left: 30px;
-   
     fill: #2E2F42;
-    transition: var(--color-iris);
+   
 }
 .modal-form-input:focus+.modal-form-icon {
    fill:  #4d5ae5;
