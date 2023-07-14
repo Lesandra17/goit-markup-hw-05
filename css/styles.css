@@ -792,10 +792,10 @@ padding: 18px;
     bottom: 8px;
     left: 30px;
    
-    stroke: #2E2F42;
+    fill: #2E2F42;
 }
 .modal-form-input:focus+.modal-form-icon {
-   stroke:  #4d5ae5;
+   fill:  #4d5ae5;
 }
 
 
