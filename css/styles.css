@@ -787,12 +787,13 @@ border: 1px solid #8E8F99;
 border-radius: 4px;
 padding: 18px;
 }
-.modal-form-icoon {
+.modal-form-icon {
     position: absolute;
     bottom: 8px;
     left: 30px;
    
     fill: #2E2F42;
+    transition: var(--color-iris);
 }
 .modal-form-input:focus+.modal-form-icon {
    fill:  #4d5ae5;
