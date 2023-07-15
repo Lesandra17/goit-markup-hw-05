@@ -548,6 +548,55 @@ margin-bottom: 16px;
 .icon-footer {
     fill: var(--light-grey-color);
 }
+.fedback-text {
+  margin-bottom: 16px;  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.footer-form{
+    display: flex;
+    gap: 24;
+}
+.footer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color: #ffffff;
+    border-radius: 4px;
+}
+.footer-input::placeholder {
+    color: #FFFFFF;
+}
+.btn-fedback {
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+.btn-icon {
+    margin-left: 16px;
+}
+
+
 
 /* Portfolio */
 .portfolio-page {
@@ -747,19 +796,24 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 
 .modal-caption {
     width: 360px;
-    display: block;
+    
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:  var(--primary-color);
-    margin-top: 72px;
-    margin-right: 24px;
-    margin-left: 24px;
-    margin-bottom: 8px;
+    color:  #FFFFFF;
+      
+    margin-bottom: 16px;
+
+    /*  margin-right: 24px;
+    margin-left: 24px;;*/
     
 }
-
-
+.modal-form {
+    display: block;
+    gap: 24px;
+}
+/*  
 .modal-form-field {
     position: relative;
 display: block;
@@ -768,25 +822,31 @@ margin-bottom: 8px;
 margin-right: 24px;
 padding-left: 24px;
 
-}
+}*/
 .modal-form-label {
+   /*  
     display: block;
     
-    font-size: 12px;
+    
     font-weight: 400;
     line-height: 1.16;
     color: #8E8F99;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em;*/
     
 }
 .modal-form-input {
-width: 360px;
-height: 58px;
-border: 1px solid #8E8F99;
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: transparent;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+padding-left: 16px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+color: #ffffff;
 border-radius: 4px;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 48px;
+
 }
 .modal-form-input:focus {
     border-color: #4d5ae5;
