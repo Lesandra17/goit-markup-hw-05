@@ -548,6 +548,10 @@ margin-bottom: 16px;
 .icon-footer {
     fill: var(--light-grey-color);
 }
+
+.footer-fedback {
+    margin-left: 80px;
+}
 .fedback-text {
   margin-bottom: 16px;  
   font-weight: 500;
@@ -558,7 +562,7 @@ margin-bottom: 16px;
 }
 .footer-form{
     display: flex;
-    gap: 24;
+    gap: 24px;
 }
 .footer-input {
     width: 264px;
