@@ -784,7 +784,9 @@ width: 360px;
 height: 58px;
 border: 1px solid #8E8F99;
 border-radius: 4px;
-padding: 18px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 48px;
 }
 .modal-form-input:focus {
     border-color: #4d5ae5;
