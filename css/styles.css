@@ -877,16 +877,15 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 8px 16px;
     outline: transparent;
     resize: none;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-area:focus {
     border-color: #4D5AE5;
 }
 
-.input-privacy {
-    margin-bottom: 24px;
-}
+
+
 .label-privacy {
     font-size: 12px;
     line-height: 1.17;
@@ -906,11 +905,18 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
+
 .visually-hidden:checked + .label-privacy .user-consent {
     background-color: var(--color-ocean);
     border: none;
     fill: var(--light-grey-color);
+    
 }
+.visually-hidden:focus {
+    border-color: var(--color-ocean);
+}
+  
+
 .label-link {
     color: var(--color-iris);
 }
@@ -928,6 +934,8 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none;
 border-radius: 4px;
+margin-right: auto;
+margin-left: auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
     
 }
