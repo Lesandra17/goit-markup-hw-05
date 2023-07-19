@@ -912,7 +912,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--light-grey-color);
     
 }
-.visually-hidden:focus {
+.visually-hidden:focus+.label-privacy .user-consent {
     border-color: var(--color-ocean);
 }
   
